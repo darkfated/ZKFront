@@ -1,0 +1,37 @@
+# Logs
+logs
+react-app/*.log
+react-app/npm-debug.log*
+react-app/yarn-debug.log*
+react-app/yarn-error.log*
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+react-app/build/Release
+
+# Dependency directories
+react-app/node_modules/
+react-app/jspm_packages/
+
+# Distribution directories
+react-app/dist/
+
+# Typescript v1 declaration files
+react-app/typings/
+
+# Optional npm cache directory
+react-app/.npm
+
+# Optional eslint cache
+react-app/.eslintcache
+
+# Optional REPL history
+react-app/.node_repl_history
+
+# Output of 'npm pack'
+react-app/*.tgz
+
+# Yarn Integrity file
+react-app/.yarn-integrity
+
+# IDE
+.idea
