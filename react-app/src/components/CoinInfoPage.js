@@ -8,7 +8,7 @@ const CoinInfoPage = () => {
   const { coinId } = useParams();
 
   useEffect(() => {
-    axios.get(`http://127.0.0.1:7171/api/${coinId}/advanced_analyze`)
+    axios.get(`http://127.0.0.1:8000/api/${coinId}/advanced_analyze`)
       .then(response => {
         setAnalysis(response.data);
       })

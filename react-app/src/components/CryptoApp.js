@@ -11,7 +11,7 @@ const CryptoApp = () => {
   const [allCoins, setAllCoins] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:7171/api/get_coins_info_small')
+    axios.get('http://localhost:8000/api/get_coins_info_small')
       .then(response => {
         const sortedCoins = response.data.sort((a, b) => b.percent_24h - a.percent_24h);
         const top10Coins = sortedCoins.slice(0, 10);
